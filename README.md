@@ -71,6 +71,7 @@ I created clean and reusable measures. Also I avoided creating unnecessary calcu
 Using my cleaned data model I answered the following questions. 
 
 *Student and School Analysis* 
+
 1. Which school has the highest number of students? 
 2. Which county has the highest number of students? 
 3. Which region has the highest student population? 
@@ -80,6 +81,7 @@ Using my cleaned data model I answered the following questions.
 7. Which school has the most diverse student population by county or region?
    
 *Teacher Analysis* 
+
 9. How many teachers are available in the dataset? 
 10. Which teacher is assigned to the highest number of students? 
 11. Which school has the highest teacher-to-student ratio? 
@@ -87,6 +89,7 @@ Using my cleaned data model I answered the following questions.
 13. Are teachers and students distributed evenly across locations? 
 
 *Academic Performance Analysis* 
+
 14. What is the average score across all students? 
 15. Which school has the highest average score? 
 16. Which subject has the highest average score? 
@@ -99,6 +102,7 @@ Using my cleaned data model I answered the following questions.
 23. Which schools need academic support based on performance? 
 
 *Location-Based Analysis* 
+
 32. Which county performs best academically? 
 33. Which sub-county has the highest average student score? 
 35. Which locations have high student numbers but low performance? 
