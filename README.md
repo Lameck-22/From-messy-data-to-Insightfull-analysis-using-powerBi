@@ -105,7 +105,20 @@ Using my cleaned data model I answered the following questions.
 
 32. Which county performs best academically? 
 33. Which sub-county has the highest average student score? 
-35. Which locations have high student numbers but low performance? 
+35. Which locations have high student numbers but low performance?
+
+### Part 5: Dashboard Requirements 
+I created a Power BI dashboard that presents the cleaned and modeled data clearly. 
+The dashboard included: 
+1. Key Performance Indicators 
+2. Student analysis 
+3. School analysis 
+4. Teacher analysis 
+5. Academic performance analysis 
+6. Revenue analysis 
+7. Location-based analysis
+   
+
  
 
 
