@@ -44,6 +44,60 @@ For example, you may need to think about tables such as:
 Also thought about location hierarchy. For example: 
 Country → Region → County → Sub-county 
 The location table should be reusable where possible. For example, both students and teachers 
-may belong to locations, so I was avoid unnecessary duplication if a shared location structure makes sense. My model should support analysis clearly and efficiently. 
-
+may belong to locations, so I was avoid unnecessary duplication if a shared location structuremakes sense. My model should support analysis clearly and efficiently. 
 In this case I used a star schema but also you can use snowflake schema. 
+
+### Part 3: Measures and Calculations 
+I created the necessary DAX measures to support my analysis. 
+The measures were to help answer important business and education questions from the dataset. 
+- The following are examples of measures created: 
+1. Number of students 
+2. Number of schools 
+3. Number of teachers 
+4. Total revenue 
+5. Average score 
+6. Pass rate 
+7. Failure rate 
+8. Attendance rate 
+9. Average fee paid
+10. Outstanding balance 
+11 Subject performance 
+12. School performance 
+13. County or region performance
+
+I created clean and reusable measures. Also I avoided creating unnecessary calculated columns where a measure would be more appropriate. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
