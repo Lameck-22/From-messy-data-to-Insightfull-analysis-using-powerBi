@@ -27,3 +27,23 @@ I Paid attention to issues such as:
  
 My goal was to make sure the cleaned data is consistent, reliable, and ready for modeling. 
 I did not remove data blindly. I made reasonable cleaning decisions.
+
+### Part 2: Data Modeling 
+After cleaning the dataset, I created a proper model from the flat table. 
+The dataset should not remain as one flat table. I was expected to normalize it into meaningful tables where necessary. I was required to think carefully about which columns belong together. 
+For example, you may need to think about tables such as: 
+
+1. Student-related table 
+2. Teacher-related table 
+3. School-related table 
+4. Subject-related table 
+5. Location-related table 
+6. Performance or assessment table 
+7. Payment or revenue-related table
+   
+Also thought about location hierarchy. For example: 
+Country → Region → County → Sub-county 
+The location table should be reusable where possible. For example, both students and teachers 
+may belong to locations, so I was avoid unnecessary duplication if a shared location structure makes sense. My model should support analysis clearly and efficiently. 
+
+In this case I used a star schema but also you can use snowflake schema. 
