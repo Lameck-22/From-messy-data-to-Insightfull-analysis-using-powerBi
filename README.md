@@ -67,7 +67,42 @@ The measures were to help answer important business and education questions from
 
 I created clean and reusable measures. Also I avoided creating unnecessary calculated columns where a measure would be more appropriate. 
 
+### Part 4: Analysis Questions 
+Using my cleaned data model I answered the following questions. 
 
+*Student and School Analysis* 
+1. Which school has the highest number of students? 
+2. Which county has the highest number of students? 
+3. Which region has the highest student population? 
+4. How many students are enrolled in each school? 
+5. What is the gender distribution of students across schools? 
+6. Which sub-county has the lowest number of students? 
+7. Which school has the most diverse student population by county or region?
+   
+*Teacher Analysis* 
+9. How many teachers are available in the dataset? 
+10. Which teacher is assigned to the highest number of students? 
+11. Which school has the highest teacher-to-student ratio? 
+12. Which county or region has the highest number of teachers? 
+13. Are teachers and students distributed evenly across locations? 
+
+*Academic Performance Analysis* 
+14. What is the average score across all students? 
+15. Which school has the highest average score? 
+16. Which subject has the highest average score? 
+17. Which subject has the lowest average score? 
+18. Which teacher’s students have the highest average performance? 
+19. Which county has the best average performance? 
+20. Which students are performing below the expected pass mark? 
+21. What is the overall pass rate? 
+22. What is the failure rate by subject? 
+23. Which schools need academic support based on performance? 
+
+*Location-Based Analysis* 
+32. Which county performs best academically? 
+33. Which sub-county has the highest average student score? 
+35. Which locations have high student numbers but low performance? 
+ 
 
 
 
