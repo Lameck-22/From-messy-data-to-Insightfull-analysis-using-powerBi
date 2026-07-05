@@ -47,6 +47,9 @@ The location table should be reusable where possible. For example, both students
 may belong to locations, so I was avoid unnecessary duplication if a shared location structuremakes sense. My model should support analysis clearly and efficiently. 
 In this case I used a star schema but also you can use snowflake schema. 
 
+<img width="1600" height="900" alt="WhatsApp Image 2026-07-05 at 12 37 06 PM" src="https://github.com/user-attachments/assets/8016da1e-df11-4a52-9597-43bcf5bd438f" />
+
+
 ### Part 3: Measures and Calculations 
 I created the necessary DAX measures to support my analysis. 
 The measures were to help answer important business and education questions from the dataset. 
@@ -79,6 +82,9 @@ Using my cleaned data model I answered the following questions.
 5. What is the gender distribution of students across schools? 
 6. Which sub-county has the lowest number of students? 
 7. Which school has the most diverse student population by county or region?
+
+   <img width="1366" height="768" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/7ad6a8ed-10e8-4f63-819b-f933d0786c8c" />
+
    
 *Teacher Analysis* 
 
@@ -86,7 +92,10 @@ Using my cleaned data model I answered the following questions.
 10. Which teacher is assigned to the highest number of students? 
 11. Which school has the highest teacher-to-student ratio? 
 12. Which county or region has the highest number of teachers? 
-13. Are teachers and students distributed evenly across locations? 
+13. Are teachers and students distributed evenly across locations?
+
+    <img width="1366" height="768" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/1ed7ff1b-86d6-48af-bce6-f26e5d2b9f53" />
+
 
 *Academic Performance Analysis* 
 
@@ -99,13 +108,19 @@ Using my cleaned data model I answered the following questions.
 20. Which students are performing below the expected pass mark? 
 21. What is the overall pass rate? 
 22. What is the failure rate by subject? 
-23. Which schools need academic support based on performance? 
+23. Which schools need academic support based on performance?
+
+<img width="1366" height="768" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/ca5577c7-4603-4864-ad85-e2f2df7bb810" />
+
 
 *Location-Based Analysis* 
 
 32. Which county performs best academically? 
 33. Which sub-county has the highest average student score? 
 35. Which locations have high student numbers but low performance?
+
+    <img width="1366" height="768" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/7b32dd3c-0970-4ff1-bd58-5cd0f537e530" />
+
 
 ### Part 5: Dashboard Requirements 
 I created a Power BI dashboard that presents the cleaned and modeled data clearly. 
@@ -117,7 +132,9 @@ The dashboard included:
 5. Academic performance analysis 
 6. Revenue analysis 
 7. Location-based analysis
-   
+
+   <img width="1293" height="726" alt="WhatsApp Image 2026-07-05 at 1 01 53 PM" src="https://github.com/user-attachments/assets/9ba31897-2027-4c67-97dc-35e8fb39802c" />
+
 
  
 
